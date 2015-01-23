@@ -1,0 +1,173 @@
+{
+  "awards": [
+    {
+      "awardId": "bsjr",
+      "awardName": "Boy Scout Joining Requirements",
+      "requirements": [
+        {
+          "longDesc": "Meet the age requirements. Be a boy who is 11 years old, or one who has completed the fifth grade or earned the Arrow of Light Award and is at least 10 years old, but is not yet 18 years old.",
+          "reqID": "1",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Find a Scout troop near your home.",
+          "reqID": "2",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Complete a Boy Scout application and health history signed by your parent or guardian.",
+          "reqID": "3",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Repeat the Pledge of Allegiance.",
+          "reqID": "4",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Demonstrate the Scout sign, salute, and handshake.",
+          "reqID": "5",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Demonstrate tying the square knot (a joining knot).",
+          "reqID": "6",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Understand and agree to live by the Scout Oath, Scout Law, motto, and slogan, and the Outdoor Code.",
+          "reqID": "7",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Describe the Scout badge.",
+          "reqID": "8",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Complete the pamphlet exercises. With your parent or guardian, complete the exercises in the pamphlet How to Protect Your Children From Child Abuse: A Parent’s Guide.",
+          "reqID": "9",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        },
+        {
+          "longDesc": "Participate in a Scoutmaster conference. Turn in your Boy Scout application and health history form signed by your parent or guardian, then participate in a Scoutmaster conference.",
+          "reqID": "10",
+          "shortDesc": "String",
+          "prerequisites": [
+            {
+              "awardId": "String",
+              "reqId": "String"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scouts": [
+    {
+      "daysOfCamping": 25,
+      "currentPatrol": "Owl Patrol",
+      "firstName": "Stephen",
+      "requirementsCompleted": [
+        {
+          "awardId": "bsjr",
+          "reqId": "1"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "2"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "3"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "4"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "5"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "6"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "7"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "8"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "9"
+        },
+        {
+          "awardId": "bsjr",
+          "reqId": "10"
+        }
+      ],
+      "currentPosition": "Senior Patrol Leader",
+      "OA": true,
+      "monthsOfLeadership": 6,
+      "lastName": "Done"
+    }
+  ]
+}

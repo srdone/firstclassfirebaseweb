@@ -1,0 +1,19 @@
+{
+  "scout" : 
+  {
+    "daysOfCamping" : 25,
+    "currentPatrol" : "Owl Patrol",
+    "firstName" : "Stephen",
+    "reqsCompleted" : 
+    [
+      {
+        "reqId" : "1",
+        "dateCompleted" : "String"
+      }
+    ],
+    "currentPosition" : "Senior Patrol Leader",
+    "OA" : true,
+    "monthsOfLeadership" : 6,
+    "lastName" : "Done"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "reqID": "1",
+  "awardID": "bsjr",
+  "shortDesc": "",
+  "text": "1",
+  "subReqs" : []
+}
+
+{
+  "constants" :{ "awards" : [{
+    "awardID": "bjsr",
+    "awardName": "Boy Scout Joining Requirements",
+    "reqs": [
+      {
+        "reqID": "1",
+        "awardID": "bsjr",
+        "shortDesc": "",
+        "text": "1",
+        "subReqs" : []
+      },
+      {}
+    ]
+  }]
+}}

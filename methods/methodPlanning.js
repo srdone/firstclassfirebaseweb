@@ -66,7 +66,23 @@ function markReqComplete(reqId) {
 // Filters through the list of completed requirements for the ranks that are complete
 // returns the rank with the highest order value
 function currentRank() {
-  
+  var completedRanks = this.reqsCompleted.map(function(current) {
+    var req = masterReqById[current.reqId];
+    // return the requirement if it is a rank
+    if (req.type === "rank") {
+      return req;
+    }
+  });
+  var highestRank = completedRank[0];
+  completedRank.forEach(function(currentRank) {
+    // if the order of the current rank is higher than that in highestRank
+    // replace the value of highest rank
+    if (highestRank.order < currentRank.order) {
+      highestRank = currentRank;
+    }
+  });
+
+  return highestRank;
 }
 
 function getCompletedReqs();
